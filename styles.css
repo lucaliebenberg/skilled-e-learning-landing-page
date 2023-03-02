@@ -197,6 +197,9 @@
     .navbar {
         padding: 1rem;
     }
+    .navbar__left {
+        padding: 1rem;
+    }
     .navbar__right {
     }
     header {
@@ -205,31 +208,35 @@
         justify-content: space-between;
     }
     .header__left {
-        padding: 1rem;
-        max-width: 500px;
+        padding: 2rem;
+        width: 100%;
     }
     .header__leftTitle {
         font-weight: 800;
         font-size: 40px;
-        max-width: 326px;
         color: #13183F;
+        min-width: 326px; 
     }
     .header__leftSubtitle {
-        max-width: 398px;
+        min-width: 398px;
         font-size: 16px;
         font-weight: 400;
         color: #83869A;
     }
     .header__right {
         display: none;
+        padding-right: 0;
     }
     .header__right_2 {
         display: flex;
+        margin: 0;
+    }
+    .header__rightImage {
+        position: absolute;
     }
     .header__rightImage2 {
-        height: 640px;
-        width: 640px;
-        padding-left: 11rem;
+        height: 600px;
+        width: auto;
         margin-top: -8rem;
     }
     .middle__wrapper {
@@ -243,13 +250,16 @@
         width: auto;
     }
     .middle__cardPink {
-        height: 259px;
+        height: 265px;
         width: 339px;
         color: white;
         justify-content: space-center;
         align-items: center;
+        margin-top: 2.5rem;
         /* margin-right: 3rem; */
-        /* margin-top: 2rem; */
+    }
+    .middle__cardPinkText {
+        padding: 2rem;
     }
     .middle__cardWhite {
         height: 283px;
@@ -259,5 +269,8 @@
         align-items: center;
         /* margin-right: 3rem; */
         margin-left: 0.75rem; */
+    }
+    .footer {
+        width: 768px;
     }
 }
